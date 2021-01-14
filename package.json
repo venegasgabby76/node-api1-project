@@ -1,24 +1,11 @@
 {
-  "name": "api1-project",
-  "version": "1.0.0",
-  "description": "Node API Project",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/venegasgabby76/node-api1-project.git"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/venegasgabby76/node-api1-project/issues"
-  },
-  "homepage": "https://github.com/venegasgabby76/node-api1-project#readme"
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
